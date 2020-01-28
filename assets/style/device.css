@@ -1,0 +1,47 @@
+.device1 {
+  border-radius: 7px;
+  border: 10px solid #000000;
+  -webkit-box-shadow: 5px 9px 16px 0px #585858;
+  -moz-box-shadow: 5px 9px 16px 0px #585858;
+  box-shadow: 5px 9px 16px 0px #585858;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  width: 978px;
+  height: 640px;
+}
+.device2 {
+  width: 70%;
+  border: 6px solid black;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 6em;
+  margin-bottom: 6em;
+  -webkit-box-shadow: 5px 9px 16px 0px #585858;
+  -moz-box-shadow: 5px 9px 16px 0px #585858;
+  box-shadow: 5px 9px 16px 0px #585858;
+}
+
+@media (max-width: 414px) and (max-height: 896px) {
+  .device1 {
+    border-radius: 43px;
+    border: 16px solid #000000;
+    -webkit-box-shadow: 5px 9px 16px 0px #585858;
+    -moz-box-shadow: 5px 9px 16px 0px #585858;
+    box-shadow: 5px 9px 16px 0px #585858;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    width: 277px;
+    height: 540px;
+  }
+  .device1 {
+    border-radius: 30px;
+    border: 24px solid #000000;
+    -webkit-box-shadow: 5px 9px 16px 0px #292929;
+    -moz-box-shadow: 5px 9px 16px 0px #292929;
+    box-shadow: 5px 9px 16px 0px #292929;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    width: 414px;
+    height: 540px;
+  }
+}
