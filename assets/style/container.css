@@ -65,15 +65,14 @@
   background-color: #ffffff!important;
 }
 .container7 {
-  border-radius: 5px;
   background-color: #fafafa!important;
-  min-height: 90vh;
+  max-height: 75.8vh;
   overflow: hidden;
 }
 .container8 {
   margin-top: 10px;
-  background-color: #121217!important;
-  min-height: 90vh;
+  background-color: #010915!important;
+  max-height: 75.8vh;
   overflow: hidden;
 }
 .container9 {
@@ -114,15 +113,14 @@
     background-color: #f2f2f2;
   }
   .container7 {
-    border-radius: 5px;
     background-color: #fafafa!important;
-    min-height: 90vh;
+    max-height: 75.8vh;
     overflow: hidden;
   }
   .container8 {
     margin-top: 5px;
-    background-color: #121217!important;
-    min-height: 90vh;
+    background-color: #010915!important;
+    max-height: 75.8vh;
     overflow: hidden;
   }
   .container9 {
