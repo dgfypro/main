@@ -16,7 +16,7 @@ body {
 	padding: 1.5em 0em; */
 	position: relative;
 	padding: 10% 0 0 0;
-	background: #ffffff;
+	background: #111116;
 }
  .titleWrapper {
 	 position: relative;
@@ -71,14 +71,14 @@ h1.first {
 	display: inline-block;
 	transform: translateY(100%);
 	transition: all 0.25s cubic-bezier(0.65, 0, 0.21, 1.47) 0s;
-	text-shadow: 0 0 80px rgba(255, 255, 255, .5);
-	background: url(../img/hero2.jpg) repeat-y!important;
+	text-shadow: 0 0 1px rgba(207, 226, 255, 0.1);
+	/* background: url(../img/hero2.jpg) repeat-y!important; */
+	background: url(https://image.freepik.com/free-vector/abstract-geometric-background-with-purple-blue-gradient-circles_7433-107.jpg) repeat-y!important;
 	/* background: url(../img/hero5.jpg) repeat-y!important; */
 	-webkit-text-fill-color: transparent!important;
 	-webkit-background-clip: text!important;
 	background-clip: text!important;
 	-webkit-animation: aitf 50s linear infinite;
-	/* Activate hardware acceleration for smoother animations */
 	-webkit-transform: translate3d(0, 0, 0);
 	-webkit-backface-visibility: hidden;
 }
@@ -220,7 +220,7 @@ h1.first {
 	color: white;
 	filter: drop-shadow(1px 2px 2px #000000);
 	letter-spacing: 0.1em;
-	padding: 0px!important;
+	padding-bottom: 5%!important;
 }
 .scrollicon {
 	filter: drop-shadow(4px 2px 3px #000000);
