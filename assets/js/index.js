@@ -15,3 +15,15 @@ jQuery(".titleWrapper h1").each(function(){
 });
 	
 });
+
+$(window).scroll(function() {
+
+	if ($(this).scrollTop()>0)
+	 {
+			$('.fadehide').fadeOut();
+	 }
+	else
+	 {
+		$('.fadehide').fadeIn();
+	 }
+});

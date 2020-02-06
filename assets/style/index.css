@@ -17,6 +17,7 @@ body {
 	position: relative;
 	padding: 10% 0 0 0;
 	background: #111116;
+	min-height: 100vh;
 }
  .titleWrapper {
 	 position: relative;
@@ -281,6 +282,7 @@ and (max-device-width : 667px)  {
 		padding: 1.5em 0em;
 		position: relative;
 		margin: 10% 0 0 0;
+		min-height: 100vh;
 	}
 	h1.first {
 		color: #292929;
@@ -350,4 +352,9 @@ and (max-device-width : 667px)  {
     letter-spacing: -0.064em;
     /* text-shadow: 0 0 80px rgba(255, 255, 255, .5); */
 	}
+}
+
+.fadehide {
+	color: #fff;
+	background-color: #101015;
 }
