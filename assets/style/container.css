@@ -67,13 +67,13 @@
 .container7 {
   border-radius: 5px;
   background-color: #fafafa!important;
-  max-height: 80vh;
+  min-height: 90vh;
   overflow: hidden;
 }
 .container8 {
   margin-top: 10px;
   background-color: #121217!important;
-  max-height: 80vh;
+  min-height: 90vh;
   overflow: hidden;
 }
 .container9 {
@@ -116,13 +116,13 @@
   .container7 {
     border-radius: 5px;
     background-color: #fafafa!important;
-    max-height: 80vh;
+    min-height: 90vh;
     overflow: hidden;
   }
   .container8 {
     margin-top: 5px;
     background-color: #121217!important;
-    max-height: 80vh;
+    min-height: 90vh;
     overflow: hidden;
   }
   .container9 {
