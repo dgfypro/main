@@ -18,7 +18,7 @@ jQuery(".titleWrapper h1").each(function(){
 
 $(window).scroll(function() {
 
-	if ($(this).scrollTop()>0)
+	if ($(this).scrollTop()>200)
 	 {
 			$('.fadehide').fadeOut();
 	 }
