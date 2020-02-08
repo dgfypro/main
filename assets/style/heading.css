@@ -1,22 +1,24 @@
 .heading1 {
   height: auto!important;
-  color: #4dbbdd;
-  font-family: "SF Pro Display Bold", sans-serif;
-  text-align: start;
-  font-size: 56px;
-  line-height: 1.07143;
-  font-weight: 700;
-  letter-spacing: -.005em;
+  font-family: "SF Pro Display", sans-serif;
+  text-align: center;
+  font-size: 40px;
+  line-height: 1.1;
+  font-weight: 600;
+  letter-spacing: 0;
+  color: #3a3a3b;
+  margin-bottom: 4px;
 }
 .heading2 {
-  height: auto;
-  color: #4dbbdd;
-  font-family: "SF Pro Display Bold", sans-serif;
-  font-size: 56px;
-  line-height: 1.0625;
-  font-weight: 700;
-  letter-spacing: -.009em;
-  text-align: start;
+  height: auto!important;
+  font-family: "SF Pro Display", sans-serif;
+  text-align: center;
+  font-size: 40px;
+  line-height: 1.1;
+  font-weight: 600;
+  letter-spacing: 0;
+  color: #d0d0d0;
+  margin-bottom: 4px;
 }
 .heading3 {
   height: auto!important;
@@ -63,37 +65,34 @@
 }
 .heading6 {
   height: auto!important;
-  color: #4334b4!important;
-  font-family: "SF Pro Display Bold", sans-serif;
-  text-align: start;
-  font-size: 56px;
-  line-height: 1.07143;
-  font-weight: 700;
-  letter-spacing: -.005em;
+  color: #292929!important;
+  font-family: "SF Pro Display", sans-serif;
+  text-align: center;
+  margin-bottom: 0.4em!important;
+  font-size: 21px;
+  line-height: 1.2381;
+  font-weight: 400;
+  letter-spacing: 0.016em;
+  width: 65%;
+  margin: auto;
 }
 .heading7 {
   height: auto!important;
-  color: #4334b4!important;
-  font-family: "SF Pro Display Bold", sans-serif;
-  text-align: start;
-  font-size: 56px;
-  line-height: 1.07143;
-  font-weight: 700;
-  letter-spacing: -.005em;
-}
-.heading7:after { 
-  content: "Web";
-  font-family: "SF Pro Display Bold", sans-serif;
-  font-size: 46px;
-  letter-spacing: -.005em;
-  letter-spacing: -.005em;
-  color: #000000!important;
-  border: 2px solid #000000!important;
+  color: #c7c7c7!important;
+  font-family: "SF Pro Display", sans-serif;
+  text-align: center;
+  margin-bottom: 0.4em!important;
+  font-size: 21px;
+  line-height: 1.2381;
+  font-weight: 400;
+  letter-spacing: 0.016em;
+  width: 65%;
+  margin: auto;
 }
 .heading8 {
   height: auto!important;
   color: #292929!important;
-  font-family: "SF Pro Display light", sans-serif;
+  font-family: "SF Pro Display ", sans-serif;
   text-align: center;
   margin-bottom: 0.4em;
   font-size: 28px;
@@ -104,10 +103,10 @@
 .heading9 {
   height: auto!important;
   color: #ffffff!important;
-  font-family: "SF Pro Display light", sans-serif;
+  font-family: "SF Pro Display", sans-serif;
   text-align: center;
   margin-bottom: 18px;
-  font-size: 28px;
+  font-size: 37px;
   line-height: 1.10722;
   font-weight: 400;
   letter-spacing: .004em;
@@ -117,8 +116,8 @@
   color: #85858b!important;
   font-family: "SF Pro Text Thin", sans-serif;
   text-align: center;
-  margin-bottom: 10px;
-  font-size: 16px;
+  margin-bottom: 0.9em;
+  font-size: 17px;
   line-height: 1.10722;
   letter-spacing: .004em;
 }
@@ -157,13 +156,26 @@
 @media (max-width: 414px) and (max-height: 896px) {
   .heading1 {
     height: auto!important;
-    color: #4dbbdd!important;
-    font-family: "SF Pro Display Bold", sans-serif;
-    text-align: start;
-    font-size: 56px;
-    line-height: 1.07143;
-    font-weight: 700;
-    letter-spacing: -.005em;
+    font-family: "SF Pro Display", sans-serif;
+    text-align: center;
+    letter-spacing: 0;
+    color: #3a3a3b;
+    margin-bottom: 4px;
+    font-size: 31px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: 0.002em;
+  }
+  .heading2 {
+    height: auto!important;
+    font-family: "SF Pro Display", sans-serif;
+    text-align: center;
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #d0d0d0;
+    margin-bottom: 4px;
   }
   .heading3 {
     height: auto!important;
@@ -209,41 +221,36 @@
     margin-bottom: 0;
   }
   .heading6 {
+    width: 100%;
     height: auto!important;
-    color: #4334b4!important;
-    font-family: "SF Pro Display Bold", sans-serif;
-    text-align: start;
-    font-size: 36px!important;
-    line-height: 1.07143;
-    font-weight: 700;
-    letter-spacing: -0.01em!important;
+    color: #292929!important;
+    font-family: "SF Pro Display", sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 1.21053;
+    font-weight: 400;
+    letter-spacing: 0.012em;
   }
   .heading7 {
-    height: auto!important;
-    color: #4334b4;
-    font-family: "SF Pro Display Bold", sans-serif;
-    text-align: start;
-    font-size: 36px!important;
-    line-height: 1.07143;
-    font-weight: 700;
-    letter-spacing: -0.01em!important;
-  }
-  .heading7:after { 
-    content: "Web";
-    font-family: "SF Pro Display Bold", sans-serif;
-    font-size: 46px;
-    letter-spacing: -.005em;
-    letter-spacing: -.005em;
-    color: #000000!important;
-    border: 2px solid #000000!important;
+    width: 100%;
+    color: #c7c7c7!important;
+    font-family: "SF Pro Display", sans-serif;
+    font-family: "SF Pro Display", sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 19px;
+    line-height: 1.21053;
+    font-weight: 400;
+    letter-spacing: 0.012em;
   }
   .heading8 {
     height: auto!important;
     color: #292929!important;
-    font-family: "SF Pro Display light", sans-serif;
+    font-family: "SF Pro Display", sans-serif;
     text-align: center;
     margin-bottom: 10px;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 1.10722;
     font-weight: 400;
     letter-spacing: .004em;
@@ -251,7 +258,7 @@
   .heading9 {
     height: auto!important;
     color: #ffffff!important;
-    font-family: "SF Pro Display light", sans-serif;
+    font-family: "SF Pro Display ", sans-serif;
     text-align: center;
     margin-bottom: 10px;
     font-size: 24px;
@@ -264,7 +271,7 @@
     color: #85858b!important;
     font-family: "SF Pro Text Thin", sans-serif;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 1em;
     font-size: 14px;
     line-height: 1.10722;
     letter-spacing: .004em;

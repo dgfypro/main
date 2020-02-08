@@ -14,7 +14,7 @@
 
 /* #1 */
  button.learn-more {
-	width: 8rem;
+	width: 9rem;
   height: auto;
 }
  button.learn-more .circle {
@@ -22,8 +22,8 @@
 	position: relative;
 	display: block;
 	margin: 0;
-	width: 1.5rem;
-	height: 1.5rem;
+	width: 1.7rem;
+	height: 1.7rem;
 	background: #ffffff00;
 	border: 2px solid #4234b4;
 	border-radius: 1.625rem;
@@ -68,9 +68,11 @@
 	padding: 0;
 	margin: 0 0 0 1.85rem;
 	color: #4234b4;
-	line-height: 1.6;
+	line-height: 1.381;
 	text-align: center;
-	font-weight: 600;
+	font-size: 21px;
+	font-family: SF Pro Display;
+	font-weight: 400;
 }
  button:hover .circle {
 	 width: 100%;
@@ -81,7 +83,7 @@
 }
  button:hover .button-text {
 	 color: #4234b4;
-	 font-weight: 700!important;
+	 font-weight: 400!important;
 }
 
  /* #2 */
@@ -226,4 +228,42 @@ button.learn-more3 {
  button:hover .button-text3 {
 	 color: #2195ee;
 	 font-weight: 700!important;
+}
+
+@media (max-height: 896px) and (max-width: 414px) {
+	button.learn-more {
+    width: 7rem;
+    height: auto;
+`}
+	button.learn-more .button-text {
+		transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		padding: 0;
+		margin: 0 0 0 1.85rem;
+		color: #4234b4;
+		line-height: 1.381;
+		text-align: center;
+		font-size: 17px;
+		font-family: SF Pro Display;
+		font-weight: 400;
+	}
+	button.learn-more .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 1.4rem;
+    height: 1.4rem;
+    background: #ffffff00;
+    border: 2px solid #4234b4;
+    border-radius: 1.625rem;
+    /* background: url(../img/hero2.jpg) repeat-x!important; */
+    -webkit-animation: aitf 50s linear infinite;
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+`}
 }

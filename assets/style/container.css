@@ -66,11 +66,11 @@
 }
 .container7 {
   background-color: #fafafa!important;
-  max-height: 75.8vh;
   overflow: hidden;
+  margin-top: 0.6em;
 }
 .container8 {
-  margin-top: 10px;
+  margin-top: 0.6em;
   background-color: #010915!important;
   max-height: 75.8vh;
   overflow: hidden;
@@ -114,11 +114,11 @@
   }
   .container7 {
     background-color: #fafafa!important;
-    max-height: 75.8vh;
     overflow: hidden;
+    margin-top: 0.6em;
   }
   .container8 {
-    margin-top: 5px;
+    margin-top: 0.6em;
     background-color: #010915!important;
     max-height: 75.8vh;
     overflow: hidden;

@@ -361,3 +361,34 @@ and (max-device-width : 667px)  {
 	background-color: #101015;
 	width: 100vw;
 }
+
+#rtdbutton {
+  display: inline-block;
+	text-align: center;
+	border-radius: 0;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	transition: background-color .3s, opacity .5s, visibility .5s;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 1000;
+	color: #ffffff;
+	padding: 50px 10px 50px 10px;
+	background: rgba(50, 50, 50, 0.74)!important;
+	-webkit-backdrop-filter: saturate(180%) blur(20px);
+	backdrop-filter: saturate(180%) blur(2px)!important;
+}
+#rtdbutton:hover {
+  cursor: pointer;
+	background-color: #333;
+	background-color: #323232!important;
+}
+#rtdbutton:active {
+  background-color: #555!important;
+}
+#rtdbutton.rtdshow {
+  opacity: 1;
+	visibility: visible;
+	max-height: 
+}

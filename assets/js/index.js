@@ -27,3 +27,19 @@ $(window).scroll(function() {
 		$('.fadehide').fadeIn();
 	 }
 });
+
+var btn = $('#rtdbutton');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 800) {
+    btn.addClass('rtdshow');
+  } else {
+    btn.removeClass('rtdshow');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+	// $('html, body').animate({scrollTop:0}, '300');
+	window.open("https://dgfypro.com/readytodigital", "_blank");
+});
