@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
+}
+
+.container {
+  width: 800px;
+  height: 580px;
+  background-image: url('https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/apple/Apple-iPhone-11-Pro/Gold/Apple-iPhone-11-Pro-Gold-frontimage.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 350px;
+  position: relative;
+}
+
+.screen, iframe {
+  position: absolute;
+  width: 220px;
+  height: 460px;
+  top: 58px;
+  left: 335px;
+  background: #000;
+  border: 2px #1D1F20 solid;
+  border-radius: 25px;
+  z-index: 500;
+  padding: 5px;
+}
+
+iframe {
+  top: 0;
+  left: 0;
+}

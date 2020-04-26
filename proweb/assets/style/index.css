@@ -1,0 +1,55 @@
+body {
+	font-family: "SF Pro Display Light", sans-serif;
+	background: #ffffff!important;
+	/* background: #f2f2f2; */
+	/* color: rgba(255, 255, 255, .25); */
+	/* text-align: center; */
+	margin: 0;
+	overflow-x: hidden;
+}
+
+/* scrollMagic */
+
+.h1hero {
+	min-height: 80vh;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  color: #fff;
+}
+
+.spacer.s2 {
+  min-height: 10vh;
+}
+
+#trigger1 {
+  background: #eaeaea;
+}
+
+#animate1 {
+  background: #999;
+  display: inline-block;
+}
+
+.image__container {
+  will-change: transform;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 16px;
+  -webkit-transform: rotateX(49deg) rotateY(0deg) rotateZ(39deg);
+          transform: rotateX(49deg) rotateY(0deg) rotateZ(39deg);
+}
+.image__item {
+  width: 30vw;
+  height: calc(30vw * (0.75));
+  background-size: cover;
+  background-position: center center;
+  border-radius: 16px;
+}
+
+.container {
+	padding-top: 5em!important;
+}

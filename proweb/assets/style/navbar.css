@@ -1,0 +1,128 @@
+nav {
+	margin: 0;
+	overflow: hidden;
+	background: rgba(0,0,0,0.8)!important;
+	-webkit-backdrop-filter: saturate(180%) blur(20px);
+	backdrop-filter: saturate(180%) blur(20px)!important;
+}
+
+.logo-img {
+	padding-top: 0.5em;
+	margin-right: 3.5em;
+}
+
+.show {
+	min-height: 100vh!important;
+	background-color: #000000!important
+}
+
+.nav-content {
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 0 20px;
+	display: flex;
+	justify-content: space-between;
+}
+.nav-content a {
+	display: block;
+	text-decoration: none;
+	transition: all 0.3s;
+}
+.nav-content a:hover,
+.nav-icon:hover,
+.nav-text:hover,
+.search-icon:hover {
+	/* opacity: 0.7; */
+	color: #ffffff;
+	text-decoration: none;
+}
+.nav-links {
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.nav-text {
+	font-family: "SF Pro Text Regular" , sans-serif;
+	font-size: 14px;
+	line-height: 3.14286;
+	font-weight: 400;
+	letter-spacing: -.01em;
+	color: #b7b7b7!important;
+}
+
+.nav-icon {
+	display: none;
+	grid-gap: 5px;
+	grid-template-columns: auto;
+	padding: 17px 0;
+	height: 10px;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+.bar {
+	height: 1px;
+	width: 18px;
+	background: white;
+	transition: 0.5s;
+}
+.show .one {
+	transform: rotate(45deg) translateY(5.5px);
+}
+.show .two {
+	transform: rotate(-45deg) translateY(-5.5px);
+}
+
+@media (max-width: 768px) {
+	.logo-img {
+		padding-top: 0.5em;
+		margin-right: 0;
+	}
+	.nav-links {
+			position: fixed;
+			top: 44px;
+			right: 0;
+			height: 0;
+			width: 100%;
+			flex-direction: column;
+			justify-content: flex-start;
+			transition: all 2s cubic-bezier(0.19, 1, 0.22, 1);
+	}
+	.nav-text {
+		font-family: "SF Pro Text Regular" , sans-serif;
+		font-size: 17px;
+		line-height: 3.14286;
+		font-weight: 400;
+		letter-spacing: -.01em;
+		color: #b7b7b7;
+	}
+	.show .nav-links {
+			height: 100vh;
+	}
+	.nav-links a {
+			height: 0;
+			width: 0;
+			opacity: 0;
+			overflow: hidden;
+			margin-right: 50px;
+			margin-left: 50px;
+			transition: opacity 1.5s, height 2s;
+	}
+	.show .nav-links a {
+			opacity: 1;
+			width: auto;
+			height: auto;
+			border-bottom: 1px solid #444444;
+	}
+	.nav-icon {
+			order: 1;
+			display: grid;
+	}
+	.logo {
+			order: 2;
+	}
+	.search-icon {
+			order: 3;
+	}
+}
