@@ -1,0 +1,35 @@
+.spacing1 {
+  margin-top: -183px!important;
+  margin-bottom: -100px!important;
+  width: 100%!important;
+  max-width: 100%!important;
+}
+.spacing2 {
+  margin-top: 35vh;
+  background-color: transparent;
+}
+.spacing3 {
+  height: 0.5em;
+  background-color: transparent;
+}
+.spacing4 {
+  height: 1em;
+  background-color: transparent;
+}
+.spacing5 {
+  height: 20%;
+  background-color: transparent;
+}
+
+@media (max-width: 414px) and (max-height: 896px) {
+  .spacing1 {
+    margin-top: 0px!important;
+    margin-bottom: 0px!important;
+    width: auto!important;
+    max-width: auto!important;
+  }
+  .spacing5 {
+    height: 0;
+    background-color: transparent;
+  }
+}

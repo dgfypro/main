@@ -1,0 +1,9 @@
+.dskrollr {
+  position: fixed;
+  width: 100%;
+  min-height: 100%;
+  text-align: center;
+  top: 50%;
+  opacity: 0;
+  font-size: 30px;
+}

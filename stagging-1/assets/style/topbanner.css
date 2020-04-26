@@ -1,0 +1,43 @@
+.top-banner {
+  margin-bottom: 30px;
+  text-align: center;
+  background-color: #fffdd0;
+}
+
+.top-banner a, .top-banner span {
+  display: inline-block;
+  color: #0e0e0e;
+}
+
+.top-banner a {
+  width: 100%;
+  padding: 15px 0;
+  text-decoration: none;
+  color: #0e0e0e;
+}
+
+.top-banner span{
+  width: 99px;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  background: #26d668;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.33337;
+  font-weight: 400;
+  letter-spacing: -.01em;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  min-width: 23px;
+  padding-left: 11px;
+  padding-right: 11px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 12px;
+  margin-left: 20px;
+}
+
+.top-banner a:hover {
+  color: #0e0e0e;
+}
